@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Perfil</title>
+</head>
+<body align="center">
+      
+    <h1><u> Meu Perfil 2</u></h1>
+      <h3><em>Quem sou eu?</em></h3>
+
+    <img src="./img/spiderman.gif" alt="Foto de Perfil" width="25%"> <!-- Sintaxe para inserir imagem, sempre que for inserir  vou utilizar essa sintq-->"
+
+    <p><strong> Meu nome é Laryssa,</strong> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque dolorum fugiat perferendis excepturi? Deleniti cumque facilis, odio provident sed in voluptate cum neque reiciendis corrupti velit quod? Perferendis, vero eligendi.</p>
+
+    <h3> Como falar comigo?</h3>
+    <ul style=" list-style-type: none;"> <!--lista n ordenada (<ul>) com itens de lista contendo links para redes sociais-->
+        <li><a href="https://github.com/" target="_blank">Github</a></li> <!-- a href é pra se referir a algo o link dentro da tag <li> leva ao Github. O atributo target=_blank" faz com que seja aberto em outra aba-->
+        <li><a href="https://www.youtube.com/" target="_blank">Youtube</a></li> <!-- link com a targer="_blank" para abrir em nova aba-->
+        <li><a href="https://web.whatsapp.com/" >Whatsapp</a></li>
+        <li><a href="https://br.linkedin.com/">Linkedin</a></li>
+        
+    </ul>
+
+    <h3> Entre em contato </h3> <!--Novo subtitulo para o formulario de contato-->
+      
+    <!-- Tabela usada para organizar o formulario-->
+    <table style="background-color: rgb(13, 54, 0); border: 1px solid rgb(0, 0, 0); padding: 10px; width: 50%; margin:0 auto;">
+     <tr>
+        <td> 
+            <form> <!-- formulário-->
+        <!-- Formulário de contato-->
+         <label for="name">NOME:</label><br> <!--label *tipo do rotulo=-->
+         <input type="text" id="name" name="name" required><br><br> <!-- o <br> é utilizado para quebrar linda e não precisa "fechar"-->
+         
+         <!-- input= receber essa informação - recebe a ID= name (declara a variavel) sempre que for fazer caixa de rotulo terá que fazer label e input-->
+          
+
+         <label for="email">Email:</label><br> <!--label=-->
+         <input type="email"id="email" name="email" required><br><br>
+
+         <label for="message">Mensagem:</label> <!--label=-->
+         <textarea id="message" name="message" rows="4" cols="40" required></textarea><br><br>
+         
+         <input type="submit" value="enviar">
+
+         <!-- rowls linhas/ required = só consegue enviar se preencher tudo-->
+
+            </form>
+            </td>
+             </tr>
+            </table>
+</body>
+</html> 
